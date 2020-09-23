@@ -528,6 +528,13 @@ public class Util {
     }
     // combines two array and returns it
 
+    public static void sleep(double seconds){
+        try {
+            Thread.sleep((long)seconds * 1000);
+        }catch (InterruptedException e){
+        }
+    }
+    //causes the current execution thread for given seconds
 
 
 

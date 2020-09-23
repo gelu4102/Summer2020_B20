@@ -1,6 +1,6 @@
 package day56_Abstraction.AnimalTask;
 
-public class Bate extends Animal implements Flyable {
+public class Bat extends Animal implements Flyable {
     @Override
     public void eat() {
         System.out.println("Bate is eating");

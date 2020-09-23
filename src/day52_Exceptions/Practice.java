@@ -1,6 +1,6 @@
 package day52_Exceptions;
 
-public class Main {
+public class Practice {
     public static void main(String[] args) {
        try {
            System.out.println(9 / 0);
