@@ -1,4 +1,4 @@
-package day57_Polymorphism;
+package day57_Polymorphism.PhoneTask;
 /*
 5. create a class named iPhone that can inherit from AppleApp and Phone
             actions: texting(), calling(), faceTiming()
@@ -30,6 +30,9 @@ public class Iphone extends Phone implements AppleApp,Downloadable  {
     @Override
     public void download() {
         System.out.println("Iphone is downloading App from "+AppStoreName);
+    }
+    public void faceTiming(long phoneNumber){
+        System.out.println("Iphone is facetiming "+phoneNumber);
     }
 
     @Override

@@ -1,4 +1,5 @@
-package day57_Polymorphism;
+package day57_Polymorphism.PhoneTask;
+
 /*
 2. create an interface named AndroidApp that can inherit from Downloadable
             variable: AppStoreName
