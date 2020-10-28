@@ -7,7 +7,7 @@ import java.util.LinkedHashMap;
 import java.util.LinkedHashSet;
 import java.util.List;
 
-public class NapPractice2 {
+public class MapPractice2 {
     public static void main(String[] args) {
         LinkedHashMap<String, Integer> students = new LinkedHashMap<>();
         students.put("Shakhzod", 89);
