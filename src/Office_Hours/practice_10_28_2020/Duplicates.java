@@ -14,6 +14,11 @@ public class Duplicates {
         ArrayList<Integer> list = new ArrayList<>(Arrays.asList(4,23,1,4,23,5,3,5,7));
         System.out.println(removeDup(list));
         System.out.println(new LinkedHashSet<>(list));
+        String str = "Gelila";
+        //System.out.println(Duplicates.StrReverse(str));
+        Duplicates dup = new Duplicates();
+        System.out.println(dup.StrReverse(str));
+
     }
     public static ArrayList<Integer> removeDup(ArrayList<Integer>nums){
         ArrayList<Integer> uniqueValues = new ArrayList<>();
@@ -25,8 +30,23 @@ public class Duplicates {
         return uniqueValues;
     }
     public static ArrayList<Integer> removeDup2(ArrayList<Integer>nums){
-         new HashSet<>(nums);
-         return new ArrayList<>(new LinkedHashSet<>(nums));
+        new HashSet<>(nums);
+        return new ArrayList<>(new LinkedHashSet<>(nums));
+    }
+
+    public String StrReverse(String str) {
+
+        String reverse="";
+
+        for(int i=str.length()-1; i >= 0; i--)
+
+            reverse += str.toCharArray()[i];
+
+
+
+        return  reverse;
+
     }
 
 }
+
