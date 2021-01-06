@@ -112,5 +112,8 @@ public class NotesBootCamp {
      *    TreeMap : dose not have null key, keys are sorted
      *    HashTable: dose not have null key, synchronized =>thread-safe
      */
+    /**
+     * garbage collector:
+     */
 
 }
