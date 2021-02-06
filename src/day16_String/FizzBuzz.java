@@ -1,6 +1,6 @@
 package day16_String;
 /*
-you have 2 words that must be 5 characters, and check if last letter of first word and first letter of second work are same.
+you have 2 words that must be 5 characters, and check if last letter of first word and first letter of second word are same.
         if either one not 5 chars length:    print "need to be exactly 5 chars length"
         if last letter of 1st word and first letter of 2nd word match:  print "Fizz"
         if they do not match:  print "Buzz - did not match"
@@ -40,7 +40,7 @@ public class FizzBuzz {
 
 
         if(result){
-            //                                "" +  'A' ==> "A"
+            //             //amedo                   "" +  'A' ==> "A"
             boolean b1 = word1.endsWith( ""+word2.charAt(0) ); // word1 ends with first character of word2
             boolean b2 = word2.startsWith( ""+ word1.charAt(word1.length()-1) );  // word2 starts with the last character of word1
 

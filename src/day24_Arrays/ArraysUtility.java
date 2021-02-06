@@ -8,8 +8,8 @@ public class ArraysUtility {
 
         int[] arr = {1,2,3};
 
-        System.out.println(arr);
-
+        System.out.println(arr);//hash code
+//we have to convert it to string
         System.out.println(  Arrays.toString(arr)  );
 
         String s1 = Arrays.toString(arr);

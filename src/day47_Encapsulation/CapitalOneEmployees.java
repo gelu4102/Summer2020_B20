@@ -61,4 +61,12 @@ public class CapitalOneEmployees {
         return "Name: "+employeeName+", Age: "+age+", Job Title: "+jobTitle+", ID: "+getID()+", Salary: "+getSalary();
     }
 
+    public static void main(String[] args) {
+        CapitalOneEmployees capitalOneEmployees = new CapitalOneEmployees("yonas",23,"SDET");
+        capitalOneEmployees.setID(12334433);
+        int newId = capitalOneEmployees.getID();
+        System.out.println(newId);
+
+    }
+
 }
